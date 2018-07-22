@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 320px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.header {
+  height: 72px;
+  box-shadow: 5px 5px 30px rgba(38, 38, 38, 0.16);
+}
+
+.logo {
+  margin: 31px 0px 30px 8px;
+}
+
+.button-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  margin: 13px 0px 13px 0px;
+  line-height: 13px;
+  font-weight: 500;
+}
+
+.header-button {
+  display: inline-block;
+  height: 38px;
+  width: 70px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.sign-in-button {
+  margin-left: 25px;
+}
+
+.register-button {
+  margin-left: 12px;
+  margin-right: 4px;
+  background-color: #262626;
+  color: #ffffff;
+  border: 1px solid #262626;
+}
+
+.search {
+  height: 48px;
+  margin: 32px 8px 0px 4px;
+  color: #626262;
+}
+
+.search-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin: 13px 0px 13px 8px;
+  line-height: 24px;
+  font-weight: 400;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.search-line {
+  opacity: 0.3;
+}
