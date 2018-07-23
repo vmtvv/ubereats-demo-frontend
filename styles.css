@@ -8,70 +8,118 @@ html {
   box-sizing: inherit;
 }
 
-.container {
+.page-container {
   width: 320px;
   background-color: #ffffff;
   margin: auto;
 }
 
-.header {
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 72px;
   box-shadow: 5px 5px 30px rgba(38, 38, 38, 0.16);
 }
 
 .logo {
-  margin: 31px 0px 30px 8px;
+  margin-left: 8px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
 }
 
 .button-text {
   font-family: "Roboto", sans-serif;
   font-size: 11px;
-  margin: 13px 0px 13px 0px;
   line-height: 13px;
   font-weight: 500;
 }
 
-.header-button {
-  display: inline-block;
-  height: 38px;
-  width: 70px;
+.default-button {
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  vertical-align: top;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sign-in-button {
-  margin-left: 25px;
+.nav-button {
+  height: 38px;
+  width: 70px;
+  margin: 4px;
 }
 
 .register-button {
-  margin-left: 12px;
-  margin-right: 4px;
   background-color: #262626;
   color: #ffffff;
   border: 1px solid #262626;
 }
 
-.search {
+.main-container {
+  padding: 0px 4px 0px 8px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   height: 48px;
-  margin: 32px 8px 0px 4px;
   color: #626262;
+  margin: 32px 4px 0px 8px;
 }
 
 .search-text {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  margin: 13px 0px 13px 8px;
   line-height: 24px;
   font-weight: 400;
-  display: inline-block;
   opacity: 0.5;
 }
 
-.search-line {
+.search-shape {
+  margin: 8px;
+}
+
+.search-underline {
   opacity: 0.3;
+  width: 100%;
+}
+
+.whento-container {
+  display: flex;
+  margin-top: 24px;
+}
+
+.whento-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.whento-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.asap {
+  width: 64px;
+  height: 40px;
+}
+
+.asap-copy {
+  width: 227px;
+  height: 40px;
+}
+
+.whento-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
 }
