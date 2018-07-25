@@ -43,7 +43,7 @@ html {
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -94,9 +94,25 @@ html {
   margin-top: 24px;
 }
 
-.whento-block {
+.when {
   display: flex;
   flex-direction: column;
+}
+
+.to {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.to-asap {
+  width: 227px;
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.to__button_logo {
+  margin: 12px;
 }
 
 .whento-title {
@@ -109,11 +125,6 @@ html {
 
 .asap {
   width: 64px;
-  height: 40px;
-}
-
-.asap-copy {
-  width: 227px;
   height: 40px;
 }
 
