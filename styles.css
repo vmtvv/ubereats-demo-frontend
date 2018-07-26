@@ -134,3 +134,47 @@ html {
   line-height: 24px;
   font-weight: 400;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.content-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.card {
+  height: 356px;
+  margin-top: 16px;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.card-type {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #626262;
+  margin-top: 4px;
+}
+
+.card-time {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+}
